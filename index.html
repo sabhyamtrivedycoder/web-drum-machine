@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BeatForge — 16-Step Web Drum Machine</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><span>🥁</span><h1>BeatForge</h1></div>
+    <div class="controls">
+      <button id="playBtn" class="btn primary">▶ Play Beat</button>
+      <label>BPM: <input type="number" id="bpm" value="120" min="60" max="200"></label>
+      <a href="https://sabhyamtrivedycoder.github.io/portfolio/" target="_blank" class="nav-portfolio">Portfolio ↗</a>
+    </div>
+  </header>
+  <main class="main">
+    <div class="grid" id="stepGrid"></div>
+  </main>
+  <footer>
+    <p>Engineered by <a href="https://github.com/sabhyamtrivedycoder" target="_blank">Sabhyam Trivedy</a> • Web Audio API • MIT License</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

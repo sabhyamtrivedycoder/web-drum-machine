@@ -1,0 +1,17 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #070d19; color: #f8fafc; font-family: 'Inter', sans-serif; display: flex; flex-direction: column; min-height: 100vh; }
+.header { background: #0d172a; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.logo { display: flex; align-items: center; gap: 0.5rem; font-size: 1.25rem; font-weight: 700; color: #f43f5e; }
+.controls { display: flex; gap: 1rem; align-items: center; }
+.btn { border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; cursor: pointer; }
+.btn.primary { background: #f43f5e; color: #fff; }
+.nav-portfolio { color: #f43f5e; text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+.main { flex: 1; padding: 1.5rem; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.grid { display: flex; flex-direction: column; gap: 0.75rem; background: #0d172a; padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); }
+.track { display: flex; gap: 0.35rem; align-items: center; }
+.track-name { width: 70px; font-weight: 600; font-size: 0.85rem; color: #94a3b8; }
+.step { width: 32px; height: 36px; background: #1e293b; border-radius: 4px; cursor: pointer; transition: all 0.1s; }
+.step.active { background: #f43f5e; box-shadow: 0 0 8px rgba(244,63,94,0.5); }
+.step.current { border: 2px solid #00f0ff; }
+footer { text-align: center; padding: 1rem; color: #64748b; font-size: 0.8rem; border-top: 1px solid rgba(255,255,255,0.05); }
+footer a { color: #f43f5e; text-decoration: none; }
